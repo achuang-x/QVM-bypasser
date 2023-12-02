@@ -8,7 +8,7 @@
 
 1、生成x64位的shellcode
 
-![image-20231202143904504](images\1.png)
+![image-20231202143904504](.\images\1.png)
 
 2、使用xor.exe进行异或
 
