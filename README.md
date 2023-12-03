@@ -45,4 +45,5 @@ Usage: QVM-bypasser.exe <url> <xor_key>
 
 ## 截图
 
-![image-20231202150806484](https://github.com/achuang-x/QVM-bypasser/blob/master/images/6.png)
+![image-20231202150806484](./images/6.png)
+![image-20231202150806484](./images/7.png)
